@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A3FB4C80-88CD-41F1-907E-545E6EF68403</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhoneShop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE28BEB1-511E-48D7-9897-03E71652EDA0</key>
+		<string>https://github.com/msunoo/PhoneShop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PhoneShop.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE28BEB1-511E-48D7-9897-03E71652EDA0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/msunoo/PhoneShop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE28BEB1-511E-48D7-9897-03E71652EDA0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE28BEB1-511E-48D7-9897-03E71652EDA0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhoneShop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
