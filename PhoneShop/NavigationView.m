@@ -10,23 +10,36 @@
 
 @implementation NavigationView
 
+- (void)dealloc
+{
+    [self setTitle:nil];
+    [self setBackgroundImg:nil];
+    [self setBgImgView:nil];
+    [self setTitleLabel:nil];
+    [self setBackBtn:nil];
+    [self setRightBtn:nil];
+    [self setDelegate:nil];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:frame];
+    NSArray *tempArr = [[NSBundle mainBundle] loadNibNamed:@"NavigationView" owner:self options:nil];
+    self = tempArr[0];
     if (self)
     {
         // Initialization code
+        self.frame = frame;
     }
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+- (IBAction)buttonClicked:(id)sender
 {
-    // Drawing code
+    UIButton *button = (UIButton *)sender;
+    if ([self.delegate respondsToSelector:@selector(navigationView:didClickedButtonWithType:)])
+    {
+        [self.delegate navigationView:self didClickedButtonWithType:button.tag];
+    }
 }
-*/
 
 @end

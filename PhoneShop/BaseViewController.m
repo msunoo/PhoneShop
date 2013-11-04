@@ -14,25 +14,59 @@
 
 @implementation BaseViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    CGRect navViewRect = CGRectMake(0, 0, 320, 44);
+    if (CurrentDeviceVersion >= 7.0)
+    {
+        navViewRect = CGRectMake(0, 20, 320, 44);
+    }
+    _navigationView = [[NavigationView alloc] initWithFrame:navViewRect];
+    _navigationView.delegate = self;
+    [self.view addSubview:_navigationView];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)setNavViewHidden:(BOOL)navViewHidden
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if (navViewHidden)
+    {
+        self.navigationView.hidden = YES;
+    }
+    else
+    {
+        self.navigationView.hidden = NO;
+    }
+}
+
+- (void)setBackBtnHidden:(BOOL)backBtnHidden
+{
+    if (backBtnHidden)
+    {
+        self.navigationView.backBtn.hidden = YES;
+    }
+    else
+    {
+        self.navigationView.backBtn.hidden = NO;
+    }
+}
+
+- (void)setRightBtnHidden:(BOOL)rightBtnHidden
+{
+    if (rightBtnHidden)
+    {
+        self.navigationView.rightBtn.hidden = YES;
+    }
+    else
+    {
+        self.navigationView.rightBtn.hidden = NO;
+    }
+}
+
+- (void)navigationView:(NavigationView *)view didClickedButtonWithType:(AllButtonType)buttonType
+{
+    
 }
 
 @end

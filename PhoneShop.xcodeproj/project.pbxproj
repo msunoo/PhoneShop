@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442420BA1827DE2F004DFA7B /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420B91827DE2F004DFA7B /* Search.storyboard */; };
+		442420BC1827DE5C004DFA7B /* Kinds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420BB1827DE5C004DFA7B /* Kinds.storyboard */; };
+		442420BE1827DE71004DFA7B /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420BD1827DE71004DFA7B /* MainPage.storyboard */; };
+		442420C01827DE8A004DFA7B /* ShoppingCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420BF1827DE8A004DFA7B /* ShoppingCart.storyboard */; };
+		442420C41827DEF0004DFA7B /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420C31827DEF0004DFA7B /* More.storyboard */; };
+		442420C61827E213004DFA7B /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442420C51827E213004DFA7B /* NavigationView.xib */; };
+		442420CA1827EA82004DFA7B /* MainPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442420C91827EA82004DFA7B /* MainPageVC.m */; };
+		442420CD1827EB46004DFA7B /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442420CC1827EB46004DFA7B /* SearchVC.m */; };
+		442420D01827EB80004DFA7B /* KindsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442420CF1827EB80004DFA7B /* KindsVC.m */; };
+		442420D31827EBDB004DFA7B /* ShoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442420D21827EBDB004DFA7B /* ShoppingCartVC.m */; };
+		442420D61827EC28004DFA7B /* MoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442420D51827EC28004DFA7B /* MoreVC.m */; };
 		448639491822BFB0006AEDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448639481822BFB0006AEDE5 /* Foundation.framework */; };
 		4486394B1822BFB0006AEDE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4486394A1822BFB0006AEDE5 /* CoreGraphics.framework */; };
 		4486394D1822BFB0006AEDE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4486394C1822BFB0006AEDE5 /* UIKit.framework */; };
@@ -14,7 +25,6 @@
 		448639551822BFB0006AEDE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 448639541822BFB0006AEDE5 /* main.m */; };
 		448639591822BFB0006AEDE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 448639581822BFB0006AEDE5 /* AppDelegate.m */; };
 		4486395C1822BFB0006AEDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4486395A1822BFB0006AEDE5 /* Main.storyboard */; };
-		4486395F1822BFB0006AEDE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4486395E1822BFB0006AEDE5 /* ViewController.m */; };
 		448639611822BFB0006AEDE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448639601822BFB0006AEDE5 /* Images.xcassets */; };
 		448639681822BFB0006AEDE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448639671822BFB0006AEDE5 /* XCTest.framework */; };
 		448639691822BFB0006AEDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448639481822BFB0006AEDE5 /* Foundation.framework */; };
@@ -37,6 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		442420B91827DE2F004DFA7B /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		442420BB1827DE5C004DFA7B /* Kinds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kinds.storyboard; sourceTree = "<group>"; };
+		442420BD1827DE71004DFA7B /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		442420BF1827DE8A004DFA7B /* ShoppingCart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShoppingCart.storyboard; sourceTree = "<group>"; };
+		442420C31827DEF0004DFA7B /* More.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		442420C51827E213004DFA7B /* NavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		442420C71827E8E8004DFA7B /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		442420C81827EA82004DFA7B /* MainPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageVC.h; sourceTree = "<group>"; };
+		442420C91827EA82004DFA7B /* MainPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageVC.m; sourceTree = "<group>"; };
+		442420CB1827EB46004DFA7B /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchVC.h; sourceTree = "<group>"; };
+		442420CC1827EB46004DFA7B /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
+		442420CE1827EB80004DFA7B /* KindsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindsVC.h; sourceTree = "<group>"; };
+		442420CF1827EB80004DFA7B /* KindsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindsVC.m; sourceTree = "<group>"; };
+		442420D11827EBDB004DFA7B /* ShoppingCartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartVC.h; sourceTree = "<group>"; };
+		442420D21827EBDB004DFA7B /* ShoppingCartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartVC.m; sourceTree = "<group>"; };
+		442420D41827EC28004DFA7B /* MoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreVC.h; sourceTree = "<group>"; };
+		442420D51827EC28004DFA7B /* MoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreVC.m; sourceTree = "<group>"; };
 		448639451822BFB0006AEDE5 /* PhoneShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448639481822BFB0006AEDE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4486394A1822BFB0006AEDE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,8 +75,6 @@
 		448639571822BFB0006AEDE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		448639581822BFB0006AEDE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4486395B1822BFB0006AEDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4486395D1822BFB0006AEDE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4486395E1822BFB0006AEDE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		448639601822BFB0006AEDE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		448639661822BFB0006AEDE5 /* PhoneShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		448639671822BFB0006AEDE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -88,6 +113,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442420B41827DD89004DFA7B /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				442420C31827DEF0004DFA7B /* More.storyboard */,
+				442420D41827EC28004DFA7B /* MoreVC.h */,
+				442420D51827EC28004DFA7B /* MoreVC.m */,
+			);
+			name = "更多";
+			sourceTree = "<group>";
+		};
+		442420B51827DD8F004DFA7B /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				442420BF1827DE8A004DFA7B /* ShoppingCart.storyboard */,
+				442420D11827EBDB004DFA7B /* ShoppingCartVC.h */,
+				442420D21827EBDB004DFA7B /* ShoppingCartVC.m */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
+		442420B61827DDC5004DFA7B /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				442420BD1827DE71004DFA7B /* MainPage.storyboard */,
+				442420C81827EA82004DFA7B /* MainPageVC.h */,
+				442420C91827EA82004DFA7B /* MainPageVC.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		442420B71827DDCB004DFA7B /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				442420BB1827DE5C004DFA7B /* Kinds.storyboard */,
+				442420CE1827EB80004DFA7B /* KindsVC.h */,
+				442420CF1827EB80004DFA7B /* KindsVC.m */,
+			);
+			name = "分类";
+			sourceTree = "<group>";
+		};
+		442420B81827DDD9004DFA7B /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				442420B91827DE2F004DFA7B /* Search.storyboard */,
+				442420CB1827EB46004DFA7B /* SearchVC.h */,
+				442420CC1827EB46004DFA7B /* SearchVC.m */,
+			);
+			name = "搜索";
+			sourceTree = "<group>";
+		};
 		4486393C1822BFB0006AEDE5 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +210,7 @@
 			children = (
 				448639571822BFB0006AEDE5 /* AppDelegate.h */,
 				448639581822BFB0006AEDE5 /* AppDelegate.m */,
+				442420C71827E8E8004DFA7B /* Global.h */,
 				448639501822BFB0006AEDE5 /* PhoneShop-Info.plist */,
 				448639511822BFB0006AEDE5 /* InfoPlist.strings */,
 				448639541822BFB0006AEDE5 /* main.m */,
@@ -166,8 +242,11 @@
 			children = (
 				4486398A1822C334006AEDE5 /* CustomTabBarVC */,
 				4486398B1822C3DA006AEDE5 /* BaseViewController */,
-				4486395D1822BFB0006AEDE5 /* ViewController.h */,
-				4486395E1822BFB0006AEDE5 /* ViewController.m */,
+				442420B81827DDD9004DFA7B /* 搜索 */,
+				442420B71827DDCB004DFA7B /* 分类 */,
+				442420B61827DDC5004DFA7B /* 首页 */,
+				442420B51827DD8F004DFA7B /* 购物车 */,
+				442420B41827DD89004DFA7B /* 更多 */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -192,6 +271,7 @@
 			children = (
 				448639831822C107006AEDE5 /* NavigationView.h */,
 				448639841822C107006AEDE5 /* NavigationView.m */,
+				442420C51827E213004DFA7B /* NavigationView.xib */,
 			);
 			name = NavigationView;
 			sourceTree = "<group>";
@@ -291,9 +371,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442420BE1827DE71004DFA7B /* MainPage.storyboard in Resources */,
+				442420C41827DEF0004DFA7B /* More.storyboard in Resources */,
 				448639611822BFB0006AEDE5 /* Images.xcassets in Resources */,
+				442420C01827DE8A004DFA7B /* ShoppingCart.storyboard in Resources */,
 				448639531822BFB0006AEDE5 /* InfoPlist.strings in Resources */,
+				442420BA1827DE2F004DFA7B /* Search.storyboard in Resources */,
+				442420BC1827DE5C004DFA7B /* Kinds.storyboard in Resources */,
 				4486395C1822BFB0006AEDE5 /* Main.storyboard in Resources */,
+				442420C61827E213004DFA7B /* NavigationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,12 +398,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4486395F1822BFB0006AEDE5 /* ViewController.m in Sources */,
+				442420D31827EBDB004DFA7B /* ShoppingCartVC.m in Sources */,
+				442420CA1827EA82004DFA7B /* MainPageVC.m in Sources */,
 				448639891822C322006AEDE5 /* CustomTabBarViewController.m in Sources */,
+				442420D61827EC28004DFA7B /* MoreVC.m in Sources */,
 				4486397F1822C02F006AEDE5 /* BaseViewController.m in Sources */,
 				448639591822BFB0006AEDE5 /* AppDelegate.m in Sources */,
 				448639851822C107006AEDE5 /* NavigationView.m in Sources */,
 				448639551822BFB0006AEDE5 /* main.m in Sources */,
+				442420D01827EB80004DFA7B /* KindsVC.m in Sources */,
+				442420CD1827EB46004DFA7B /* SearchVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

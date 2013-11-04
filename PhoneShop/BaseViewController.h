@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "NavigationView.h"
 
-@interface BaseViewController : UIViewController
+@interface BaseViewController : UIViewController<NavigationViewDelegate>
 
 @property (strong, nonatomic) NavigationView *navigationView;
+@property (assign, nonatomic) BOOL navViewHidden;
+@property (assign, nonatomic) BOOL backBtnHidden;
+@property (assign, nonatomic) BOOL rightBtnHidden;
 
 @end
